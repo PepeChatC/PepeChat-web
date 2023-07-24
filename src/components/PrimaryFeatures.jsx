@@ -210,7 +210,7 @@ function StocksScreen({ custom, animated = false }) {
       <MotionAppScreenBody {...(animated ? { ...bodyAnimation, custom } : {})}>
         
         <div className="h-full divide-y divide-gray-100 flex justify-center items-center">
-          <image src={'/images/sec.png'} width={500} height={300} alt="Stock Logo" />
+          <img src={'/images/sec.png'} width={500} height={300} alt="Stock Logo" />
         </div>
       </MotionAppScreenBody>
     </AppScreen>
